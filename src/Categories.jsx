@@ -1,14 +1,15 @@
 import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react";
-// import { categoryUrl } from "../app_data/api_urls";
+import { categoryUrl } from "./app_url";
+
 
 const Categories = () => {
   const [data, setData] = useState();
 
   const getData = async () => {
     try {
-      const response = await axios.get('https://jsonplaceholder.typicode.com/posts');
+      const response = await axios.get(categoryUrl);
       setData(response.data);
     } catch (err) {
 
