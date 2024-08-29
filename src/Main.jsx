@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+
  const Main =() =>{
   const [count, setCount] = useState(0);
 
@@ -25,8 +26,11 @@ import React, { useState } from 'react'
     <button onClick={decr} className='bg-black text-white px-7 py-2'>Subtract</button>
     {/* si <h2>{result?"even": "odd"}</h2> */}
     <h1 >{result}
+      
     </h1>
+<>
 
+</>
 
 
 

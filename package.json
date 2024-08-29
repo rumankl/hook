@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-tailwind/react": "^2.1.9",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "^5.0.1",
@@ -36,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
     "tailwindcss": "^3.4.10"
   },
   "overrides": {
@@ -48,7 +51,9 @@
     "resolve-url-loader": {
       "postcss": "8.4.41",
       "react-scripts": "^5.0.1"
-      
-    }
+    },
+     "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
+ 
 }
